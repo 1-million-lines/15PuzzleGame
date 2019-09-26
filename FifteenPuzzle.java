@@ -24,8 +24,8 @@ public class FifteenPuzzle extends JPanel {
 		gridSize = tileSize * side;
 
 		setPreferredSize(new Dimension(dim, dim + margin));
-		setBackground(Color.WHITE);
-		setForeground(new Color(0x6495ED));
+		setBackground(new Color(0x6495ED));
+		setForeground(new Color(0xFF00FF));
 		setFont(new Font("SansSerif", Font.BOLD, 60));
 
 		gameOver = true;
